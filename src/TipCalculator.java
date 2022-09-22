@@ -17,6 +17,7 @@ public class TipCalculator {
         double totalCostPerPerson;
         double tipAsDecimal;
 
+        //user input
         System.out.println("Hello! Welcome to the tip calculator!");
         System.out.print("How many people are in your group? ");
         numOfPeople = scan.nextInt();
@@ -25,7 +26,7 @@ public class TipCalculator {
 
         //adding up total and asking user costs.
         while (itemCost != -1) {
-            System.out.print("Enter a const in dollars and cents, e.g. 12.50(type -1 to end): ");
+            System.out.print("Enter the cost of an item you bought in dollars and cents, e.g. 12.50(type -1 to end): ");
             itemCost = scan.nextDouble();
             totalCost += itemCost;
         }
