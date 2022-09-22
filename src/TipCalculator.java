@@ -18,9 +18,9 @@ public class TipCalculator {
         double tipAsDecimal;
 
         System.out.println("Hello! Welcome to the tip calculator!");
-        System.out.println("How many people are in your group?");
+        System.out.print("How many people are in your group? ");
         numOfPeople = scan.nextInt();
-        System.out.println("What's the tip percentage?");
+        System.out.print("What's the tip percentage? ");
         tipPercentage =  scan.nextInt();
 
         //adding up total and asking user costs.
