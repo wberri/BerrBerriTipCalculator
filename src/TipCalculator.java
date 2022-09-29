@@ -23,6 +23,7 @@ public class TipCalculator {
         numOfPeople = scan.nextInt();
         System.out.print("What's the tip percentage? ");
         tipPercentage =  scan.nextInt();
+        System.out.println();
 
         //adding up total and asking user costs.
         while (itemCost != -1) { //not equal -1 because that symbolizes the user is done inputting values.
