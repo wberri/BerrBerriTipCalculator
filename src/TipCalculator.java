@@ -16,7 +16,7 @@ public class TipCalculator {
         double tipPerPerson;
         double totalCostPerPerson;
         double tipAsDecimal;
-
+        //adam was here
         //user input
         System.out.println("Hello! Welcome to the tip calculator!");
         System.out.print("How many people are in your group? ");
